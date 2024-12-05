@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main(){
+  if (i%400 == 0 || (i%4 == 0 && i%100 !=0)){
+      printf("閏年");
+  }
+  else {
+      print ("不是閏年");
+  }
+return 0;
+}
